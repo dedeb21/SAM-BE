@@ -59,96 +59,95 @@ while ($row = mysqli_fetch_assoc($result)) {
             </div>
         </div>
     </nav>
-
+    </nav>
     <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner"></div>
-        <div class="carousel-item active" style="background-image: url('assets/C0.png'); height: 92vh;">
-            <div class="carousel-caption p-0">
-                <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
-                    <h1 class="text-content ">FILIPINO ATHLETES</h1>
-                    <p class="text-content">Your support can make all the difference! Stand alongside our athletes
-                        as they push their limits, giving them the encouragement, resources, and opportunities they
-                        need to succeed. Together, we can help them achieve greatness and bring pride to our
-                        country. Your belief in them fuels their journey to victory!
-                    </p>
-                    <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="background-image: url('assets/C0.png'); height: 92vh;">
+                <div class="carousel-caption p-0">
+                    <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
+                        <h1 class="text-content ">FILIPINO ATHLETES</h1>
+                        <p class="text-content">Your support can make all the difference! Stand alongside our athletes
+                            as they push their limits, giving them the encouragement, resources, and opportunities they
+                            need to succeed. Together, we can help them achieve greatness and bring pride to our
+                            country. Your belief in them fuels their journey to victory!
+                        </p>
+                        <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/C1.png'); height: 92vh;">
+                <div class="carousel-caption p-0">
+                    <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
+                        <h1 class="text-content">CARE</h1>
+                        <p class="text-content">Genuine care goes a long way. Support our athletes’ well-being by
+                            helping them access the resources, guidance, and encouragement they need to excel and
+                            represent our country with honor.
+                        </p>
+                        <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/C2.png'); height: 92vh;">
+                <div class="carousel-caption p-0">
+                    <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
+                        <h1 class="text-content">ENCOURAGEMENT</h1>
+                        <p class="text-content">Inspire our athletes to dream big and aim high. Your words of
+                            encouragement and belief in their abilities can fuel their drive to succeed and make our
+                            nation proud.
+                        </p>
+                        <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/C3.png'); height: 92vh;">
+                <div class="carousel-caption p-0">
+                    <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
+                        <h1 class="text-content">PRIDE</h1>
+                        <p class="text-content">Take pride in the achievements of our Filipino athletes. By celebrating
+                            their victories and sharing their stories, we show the world that the Filipino spirit is
+                            unstoppable. Together, we can inspire the next generation of champions.
+                        </p>
+                        <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/C4.png'); height: 92vh;">
+                <div class="carousel-caption p-0">
+                    <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
+                        <h1 class="text-content">SUPPORT</h1>
+                        <p class="text-content">Be the strength that uplifts our athletes. Your support—whether through
+                            donations, cheering them on, or spreading awareness—gives them the motivation to keep
+                            striving for greatness.
+                        </p>
+                        <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item" style="background-image: url('assets/C5.png'); height: 92vh;">
+                <div class="carousel-caption p-0">
+                    <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
+                        <h1 class="text-content">LOVE</h1>
+                        <p class="text-content">Show your love for our Filipino athletes by standing with them every
+                            step of the way. Let them feel the warmth of our nation’s pride and affection, reminding
+                            them that they are never alone in their journey.
+                        </p>
+                        <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="carousel-item" style="background-image: url('assets/C1.png'); height: 92vh;">
-            <div class="carousel-caption p-0">
-                <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
-                    <h1 class="text-content">CARE</h1>
-                    <p class="text-content">Genuine care goes a long way. Support our athletes’ well-being by
-                        helping them access the resources, guidance, and encouragement they need to excel and
-                        represent our country with honor.
-                    </p>
-                    <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item" style="background-image: url('assets/C2.png'); height: 92vh;">
-            <div class="carousel-caption p-0">
-                <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
-                    <h1 class="text-content">ENCOURAGEMENT</h1>
-                    <p class="text-content">Inspire our athletes to dream big and aim high. Your words of
-                        encouragement and belief in their abilities can fuel their drive to succeed and make our
-                        nation proud.
-                    </p>
-                    <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item" style="background-image: url('assets/C3.png'); height: 92vh;">
-            <div class="carousel-caption p-0">
-                <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
-                    <h1 class="text-content">PRIDE</h1>
-                    <p class="text-content">Take pride in the achievements of our Filipino athletes. By celebrating
-                        their victories and sharing their stories, we show the world that the Filipino spirit is
-                        unstoppable. Together, we can inspire the next generation of champions.
-                    </p>
-                    <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item" style="background-image: url('assets/C4.png'); height: 92vh;">
-            <div class="carousel-caption p-0">
-                <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
-                    <h1 class="text-content">SUPPORT</h1>
-                    <p class="text-content">Be the strength that uplifts our athletes. Your support—whether through
-                        donations, cheering them on, or spreading awareness—gives them the motivation to keep
-                        striving for greatness.
-                    </p>
-                    <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
-                </div>
-            </div>
-        </div>
-        <div class="carousel-item" style="background-image: url('assets/C5.png'); height: 92vh;">
-            <div class="carousel-caption p-0">
-                <div class="col-12 col-md-12 col-lg-4 text-center text-start text-md-center text-lg-start">
-                    <h1 class="text-content">LOVE</h1>
-                    <p class="text-content">Show your love for our Filipino athletes by standing with them every
-                        step of the way. Let them feel the warmth of our nation’s pride and affection, reminding
-                        them that they are never alone in their journey.
-                    </p>
-                    <a href="forms.html" button class="btn btn-outline-light">Show Your Support for Our Athletes</a>
-                </div>
-            </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
-
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleSlidesOnly"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleSlidesOnly"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-    </div>
-
+    </section>
     <div class="containerTheme gradient-bg">
         <div class="row mb-3">
             <div class="col">
@@ -167,7 +166,6 @@ while ($row = mysqli_fetch_assoc($result)) {
             </div>
         </div>
     </div>
-
     <div class="containerPowerhouse">
         <h1>Pinoy Powerhouses</h1>
         <p>
@@ -181,8 +179,6 @@ while ($row = mysqli_fetch_assoc($result)) {
             athletes get the resources they need to push their limits and compete internationally. Together, we can help
             these rising stars shine brighter and take our country’s pride to new heights.
         </p>
-
-
         <div class="row mx-5 justify-content-center">
             <div class="col-xxl-1 my-4"></div>
             <?php
@@ -213,7 +209,6 @@ while ($row = mysqli_fetch_assoc($result)) {
         </div>
     </div>
 
-
     <footer class="footer py-2">
         <div class="container text-center text-white">
             <div class="row mt-3">
@@ -224,12 +219,6 @@ while ($row = mysqli_fetch_assoc($result)) {
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
