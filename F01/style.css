@@ -1,0 +1,444 @@
+html,
+body {
+    height: 100%; 
+    margin: 0;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    position: relative;
+}
+
+.container {
+    flex: 1;
+}
+
+.navbar {
+    background: linear-gradient(90deg, #191970, #333333) !important;
+    color: white;
+    box-shadow: 0 10px 25px rgba(90, 49, 49, 0.7);
+}
+
+.navbar-toggler {
+    border: 2px solid white;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.btn-nav {
+    color: #ffffff;
+    border: none;
+}
+
+.btn-nav:hover {
+    color: #7777ee;
+}
+
+.btn-nav:active,
+.btn-nav:focus {
+    background-color: #e0e0e0;
+    color: #ffffff;
+}
+
+.samText {
+    font-family: "Poppins", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.875rem;
+    color: white;
+}
+
+.containerPowerhouse {
+    background-image: url('assets/BG.png'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: repeat;
+    padding: 3rem; 
+    color: white; 
+    text-align: center; 
+}
+
+.containerPowerhouse h1 {
+    font-size: 2.25rem;
+    color: #191970;
+    font-weight: bold;
+}
+
+.containerPowerhouse p {
+    font-size: 1.125rem;
+    color: #333;
+    line-height: 1.6;
+    max-width: 62.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    margin: 0;
+    padding: 0;
+    width: 15.625rem;
+    border-radius: 0.9375rem;
+    overflow: hidden;
+    background-color: #f7f7f7;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: none;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 0.0625rem;
+    border-top-right-radius: 0.9375rem;
+}
+
+.card a {
+    display: block;
+    padding: 0.9375rem;
+    background-image: linear-gradient(90deg, #191970, #333333);
+    color: white;
+    text-decoration: none;
+    font-size: 1.125rem;
+    font-weight: bold;
+    border-bottom-left-radius: 0.9375rem;
+    border-bottom-right-radius: 0.0625rem;
+    transition: all 0.3s ease;
+}
+
+.card a:hover {
+    transform: scale(1.05);
+}
+
+.popover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 84.5%;
+    background-color: rgba(25, 25, 112, 0.8);
+    color: white;
+    padding: 1.25rem;
+    border-radius: 0.5rem;
+    font-size: 0.875rem;
+    opacity: 0;
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    text-align: center;
+    white-space: normal;
+}
+
+.card:hover .popover {
+    opacity: 1;
+    visibility: visible;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.carousel-item {
+    background-size: cover;
+    background-position: center;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-align: center;
+}
+
+.carousel-caption h1 {
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 6.25rem;
+    font-weight: 600;
+    letter-spacing: 0.3125rem;
+}
+
+.carousel-caption h2 {
+    font-family: 'Bebas Neue', cursive !important;
+    font-size: 3.125rem;
+    letter-spacing: 0.25rem;
+}
+
+.carousel .btn {
+    display: inline-block;
+    border-radius: 1.25rem;
+    cursor: pointer;
+    background: rgba(50, 55, 54, 0.447);
+}
+
+.image-container img {
+    max-width: 40%;
+    height: auto;
+    border-radius: 0.625rem;
+}
+
+.image-description {
+    margin: 0.9375rem 6.25rem 0.125rem 6.25rem;
+    font-size: 1.14rem;
+    color: #d7d6d6;
+}
+
+.gradient-bg {
+    background: linear-gradient(90deg, #191970, #333333) !important;
+    color: white;
+    padding: 1.25rem;
+}
+
+.section-bg {
+    background: rgba(32, 32, 115, 0.749);
+    padding: 2.5rem;
+    border-radius: 0.9375rem;
+    color: white;
+    box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.section-bg h2 {
+    font-size: 2.5rem;
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.section-bg p {
+    color: #dcdcdc;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.donation-btn {
+    background: linear-gradient(90deg, #191970, #333333);
+    border: none;
+    padding: 0.9375rem 1.875rem;
+    border-radius: 1.875rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.donation-btn:hover {
+    background: linear-gradient(90deg, #333333, #191970);
+    transform: scale(1.05);
+}
+
+.footer {
+    background: linear-gradient(90deg, #191970, #333333);
+    color: white;
+    text-align: center;
+}
+
+.footer h5 {
+    font-size: 1.2rem;
+    margin-bottom: 0.9375rem;
+}
+
+.footer p {
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ffd700;
+}
+
+.footer i {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.footer i:hover {
+    transform: scale(1.2);
+    color: #ffd700;
+}
+
+.rowGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outerContainer{
+    background-image: url('assets/BG.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: 1rem;
+    text-align: center;
+}
+
+.outerContainer h2 {
+    color: #191970;
+    font-size: 3rem;
+}
+
+.containerGallery {
+    padding-top: 20px; 
+    flex: 25%;
+    max-width: 33.3%;
+}
+
+.columnGallery {
+    flex: 25%;
+    max-width: 33.3%;
+    padding: 0 4px;
+}
+
+.columnGallery img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+    filter: grayscale(1) brightness(0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s linear;
+}
+
+.columnGallery img:hover {
+    filter: grayscale(0);
+}
+
+.containerGallery p {
+  color: #555555;
+}
+
+.containerVideo {
+    background-image: url('assets/BGM.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    padding: .5rem;
+    text-align: center;
+}
+
+.containerVideo h1{
+    margin:  0 25px 10px 25px;
+    color:  #f5f5f7;
+}
+
+.videoDescription {
+    font-size: 1.25rem;
+    color: #f2f4f7;
+    margin:  20px 25px 5px 25px;
+}
+
+.video-section {
+    display: flex;
+    padding-bottom: 5px; 
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.video-frame {
+    width: 70%;
+    height: 650px;
+    pointer-events: none;
+}
+
+.spotifyPlaylistContainer {
+    background: linear-gradient(90deg, #333333, #191970);
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 1800px;
+    margin: auto;
+}
+
+.spotifyPlaylistContainer h1 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.spotifyDescription {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+iframe {
+    border-radius: 10px;
+}
+
+.containerMediaBtn {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.btn-athlete {
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-transform: uppercase;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-athlete:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 576px) {
+    h1.text-content {
+        font-size: 4rem;
+        letter-spacing: 0px;
+    }
+
+    p.text-content {
+        font-size: 1.2rem;
+    }
+
+    .header h1 {
+        font-size: 2.5rem;
+        letter-spacing: 0px;
+    }
+
+    .header p {
+        font-size: 1.1rem;
+    }
+
+    .image-container img {
+        max-width: 100%;
+    }
+
+    .image-description {
+        margin: 5px 5px 5px 5px;
+        font-size: 1.2rem;
+    }
+
+    @media screen and (max-width: 800px) {
+        .columnGallery {
+            flex: 50%;
+            max-width: 50%;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .columnGallery {
+            flex: 100%;
+            max-width: 100%;
+        }
+    }
+}
